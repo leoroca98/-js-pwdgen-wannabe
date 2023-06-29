@@ -1,26 +1,58 @@
-let name = prompt("inserisci il tuo nome");
+let nameUser = prompt("inserisci il tuo nome");
 
-let surname = prompt("inserisci il tuo cognome");
+let username = prompt("inserisci il tuo cognome");
 
-let preferiteColor = prompt("inserisci il tuo colore preferito");
+let preferitecolor = prompt("inserisci il tuo colore preferito");
 
+let paswordSimple=nameUser+username+preferitecolor+21;
 
-let mioTesto = ("nomecognomecolorepreferito21");
-console.log(mioTesto);
+console.log(`
+
+la pasword semplice è
+
+${paswordSimple}`
+
+);
 
 
 let bigliettoDaVisita = `^.^---___---___---Biglietto da visita---___---___---^.^
 
--Nome: ${name}
+-Nome: ${nameUser}
 
--Cognome: ${surname}
+-Cognome: ${username}
 
--Colore Preferito: ${preferiteColor}
+-Colore Preferito: ${preferitecolor}
 
 
 `
 
 console.log(bigliettoDaVisita);
+
+
+
+let numeroUno = parseInt(prompt("inserisci un mumero : "));
+
+let numeroDue = parseInt(prompt("inserisci un secondo numero :"));
+
+let min, max;
+
+if (numeroUno <= numeroDue) {
+    min = numeroUno;
+    max = numeroDue;
+     } else {
+       max =numeroUno;
+       max =numeroDue;
+     }
+
+
+     document.getElementById("UserNome").innerHTML = nameUser; 
+     document.getElementById("UserSurname").innerHTML = username;
+     document.getElementById("UserPreferiteColor").innerHTML = preferiteColor;
+
+
+
+
+
 
 
 
