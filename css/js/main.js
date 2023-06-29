@@ -30,19 +30,6 @@ console.log(bigliettoDaVisita);
 
 
 
-let numeroUno = parseInt(prompt("inserisci un mumero : "));
-
-let numeroDue = parseInt(prompt("inserisci un secondo numero :"));
-
-let min, max;
-
-if (numeroUno <= numeroDue) {
-    min = numeroUno;
-    max = numeroDue;
-     } else {
-       max =numeroUno;
-       max =numeroDue;
-     }
 
 
      document.getElementById("UserNome").innerHTML = nameUser; 
