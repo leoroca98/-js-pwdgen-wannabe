@@ -9,7 +9,22 @@ let mioTesto = ("nomecognomecolorepreferito21");
 console.log(mioTesto);
 
 
-let bigliettoDaVisita = '--------------Biglietto da visita----------------'
+let bigliettoDaVisita = `^.^---___---___---Biglietto da visita---___---___---^.^
+
+-Nome: ${name}
+
+-Cognome: ${surname}
+
+-Colore Preferito: ${preferiteColor}
+
+
+`
+
+console.log(bigliettoDaVisita);
+
+
+
+
 
 
 
